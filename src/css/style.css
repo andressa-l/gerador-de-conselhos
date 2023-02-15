@@ -1,0 +1,62 @@
+body {
+    background-color: var(--neutral-dark);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao .advice {
+    display:flex;
+    flex-direction: column;
+    padding: 30px 50px 30px 50px;
+    align-items: center;
+    text-align: center;
+    background-color: var(--neutral-medium);
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 500px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cartao .advice .advice-id {
+    color: var(--primary-medium);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.cartao .advice .text-advice {
+    color: var(--primary-soft);
+    font-size: 28px;
+    padding: 23px;
+    text-align: center;
+    height: 8rem;
+    margin: 0px 0px 40px;
+}
+
+
+.cartao .advice .icone-botao {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-medium);
+    transform: translateY(50%);
+    bottom: -2rem;
+    position: relative;
+}
+
+.cartao .advice .icone-botao:hover{
+    color: #53FFAB; 
+    box-shadow: 0 0px 30px 1px var(--primary-medium);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
