@@ -14,15 +14,11 @@ body {
 .cartao .advice {
     display:flex;
     flex-direction: column;
-    padding: 30px 50px 30px 50px;
     align-items: center;
-    text-align: center;
     background-color: var(--neutral-medium);
     border-radius: 10px;
     margin: 20px;
-    max-width: 500px;
-    width: fit-content;
-    height: fit-content;
+    width: 345px;
 }
 
 .cartao .advice .advice-id {
@@ -35,13 +31,14 @@ body {
 
 .cartao .advice .text-advice {
     color: var(--primary-soft);
-    font-size: 28px;
+    font-size: 23px;
     padding: 23px;
     text-align: center;
-    height: 8rem;
-    margin: 0px 0px 40px;
 }
 
+.advice picture img {
+    width: 100%;
+}
 
 .cartao .advice .icone-botao {
     width: 60px;
@@ -50,8 +47,6 @@ body {
     border: none;
     background-color: var(--primary-medium);
     transform: translateY(50%);
-    bottom: -2rem;
-    position: relative;
 }
 
 .cartao .advice .icone-botao:hover{
@@ -59,4 +54,14 @@ body {
     box-shadow: 0 0px 30px 1px var(--primary-medium);
     cursor: pointer;
     transition: all .2s ease-in-out;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--primary-soft);
+}
+
+.attribution a {
+    color: hsl(149, 45%, 44%);
 }
